@@ -32,6 +32,7 @@ twitter = "dsousa_rob"
 social_banner = "img/banner.png"
 posts_navigation = true
 small_banner_logo = false
+latestpostcount = 5
 
 [sitemap]
 changefreq = "monthly"
