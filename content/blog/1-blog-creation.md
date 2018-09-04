@@ -41,6 +41,13 @@ Sur la [cloud console](https://console.cloud.google.com/) dans `IAM / Administra
 
 C'est fini, il n'y a plus aucune autre action manuelle, on continue à faire de l'infra mais sans les mains !
 
+### Prérequis
+
+Terraform stocke l'état de l'infra dans un `.tfstate`. Sauvegarder c'est bien, mais si ça reste sur le pc c'est zéro ! Il faut stocker tout ça dans un [bucket](https://cloud.google.com/storage/docs/creating-buckets)
+On a aussi besoin d'activer certaines api comme dns, compute et container.
+
+Un script qui fait tout ça [init/init.sh](https://github.com/kapelal/terraform/blob/master/init/init.sh)
+
 ### VPC / DNS / K8s avec Terraform
 
 Le code se trouve ici [kapelal/terraform](https://github.com/kapelal/terraform)
@@ -59,8 +66,6 @@ vars.tfvars
 + `config.backend` sert à la phase d'init (`terraform init`) pour générer la conf des backends (ici [backend gcs](https://www.terraform.io/docs/backends/types/gcs.html)) (qui est déclaré dans le `main.tf`) [Doc](https://www.terraform.io/docs/backends/config.html)
 
 + `main.tf` l'infra qui va être créé.
-
-Terraform stocke l'état de l'infra dans un `.tfstate`. Sauvegarder c'est bien, mais si ça reste sur le pc c'est zéro ! On stock tout ça dans un bucket
 
 ```
 terraform {
