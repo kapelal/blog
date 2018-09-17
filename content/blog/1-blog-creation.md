@@ -1,18 +1,17 @@
 +++
 title = "Comment j'ai monté mon blog ? [Partie 1]"
-date = 2018-07-05T14:01:24+02:00
-draft = true
+date = 2018-09-17T14:01:24+02:00
 meta_img = "/images/image.jpg"
-tags = ["gcloud","terraform","kubernetes","hugo"]
+tags = ["gcloud","terraform","kubernetes"]
 description = "Comment j'ai monté mon blog ? [Partie 1]"
 +++
 
 ### Avant de commencer
 
-J'utilise Kubernetes depuis + d'un an au boulot et j'ai envie d'avoir des répôts/outils/scripts pour mes prochaines utilisations. Ce blog est un prétexte pour faire tout ça.
+J'utilise Kubernetes depuis + d'un an au boulot et j'ai envie d'avoir des dépôts/outils/scripts pour mes prochaines utilisations. Ce blog est un prétexte pour faire tout ça.
 Il y a beaucoup plus simple, par exemple [netlify](https://www.netlify.com/)
 
-Je ne vais pas rentrer dans les détails sur les différents objets Google et Terraform, ce n'est pas le but. C'est plus un exercice de présentation à une tierce personne qui aurait choisi de faire du gcloud avec terraform.
+Ce n'est pas un tuto Google ou Terraform, ce n'est pas le but. C'est plus un exercice de présentation de ce qu'on peut faire avecgcloud/k8s/terraform
 
 ### Liste des courses
 
@@ -20,35 +19,49 @@ Je ne vais pas rentrer dans les détails sur les différents objets Google et Te
 + Blog: [Hugo](https://gohugo.io/) sous [K8s](https://kubernetes.io/)
 + Code: Sur [github/kapelal](https://github.com/kapelal) et quelques images sur le [hub docker public](https://hub.docker.com/)
 
-Un sensei m'a dit un jour *qui deploie à la main redéploie le lendemain*. On va éviter toutes actions manuelles et tout faire en IaC.
+Un sensei m'a dit un jour:
 
-Un dépôt terraform avec toutes mon infra !
+```text
+Qui deploie à la main redéploie le lendemain
+```
+
+En gros, un dépôt terraform avec toutes mon infra.
 
 ### Le marteau et la faucille
 
-Pour voir, lister, ajouter ce que nous allons créer vous pouvez soit passer par les images docker, ce que je vais faire, soit télécharger les outils:
+Une liste exhaustive des outils que je vais utiliser:
 
 + [gcloud](https://cloud.google.com/sdk/install)
 + [terraform](https://www.terraform.io/downloads.html)
++ [docker](https://www.docker.com/get-started)
 
 ### Jour de Paye
 
-Avec une addresse `*.gmail.com`, il faut créer un compte [Google Cloud Platform](https://cloud.google.com/). 300 balles gratos ! C'est amplement suffisant pour se faire les dents.
+Avec une addresse `*.gmail.com`, on peut créer un compte [Google Cloud Platform](https://cloud.google.com/). 300 balles gratos ! C'est amplement suffisant pour se faire les dents.
 
 ### Multipass
 
-Sur la [cloud console](https://console.cloud.google.com/) dans `IAM / Administration` -> `Compte de service` il faut créer une compte de service, genèrer une clé et la stocker sur son pc.
+Sur la [cloud console](https://console.cloud.google.com/) dans `IAM / Administration` -> `Compte de service` il faut se créer un compte de service, genèrer une clé et la stocker sur son pc.
 
-C'est fini, il n'y a plus aucune autre action manuelle, on continue à faire de l'infra mais sans les mains !
+C'est fini, il n'y a plus aucune autre action manuelle.
+On continue à faire de l'infra mais sans les mains !
 
 ### Prérequis
 
-Terraform stocke l'état de l'infra dans un `.tfstate`. Sauvegarder c'est bien, mais si ça reste sur le pc c'est zéro ! Il faut stocker tout ça dans un [bucket](https://cloud.google.com/storage/docs/creating-buckets)
+Terraform stocke l'état de l'infra dans un `.tfstate`. Sauvegarder c'est bien, mais si cela reste sur le pc c'est zéro !
+
+Il faut stocker tout ça dans un [bucket](https://cloud.google.com/storage/docs/creating-buckets)
 On a aussi besoin d'activer certaines api comme dns, compute et container.
 
 Un script qui fait tout ça [init/init.sh](https://github.com/kapelal/terraform/blob/master/init/init.sh)
 
+Coté nom de domaine, j'ai choisis de le prendre chez OVH. Faut pas oublier de faire le changement de la délégation DNS vers la zone DNS google
+
 ### VPC / DNS / K8s avec Terraform
+
+![](/img/1-blog-creation/infra-kapelal.png)
+
+*Vue de l'infra à la fin de l'article*
 
 Le code se trouve ici [kapelal/terraform](https://github.com/kapelal/terraform)
 
@@ -117,18 +130,16 @@ make output
 
 + `var.tf` et `var.tfvars` déclaration et initialisation des variables. [Doc](https://www.terraform.io/intro/getting-started/variables.html)
 
-+ `Makefile` encapsulation de commande pour faire du terraform avec des images docker.
++ `Makefile` encapsulation de commande pour faire du terraform avec des images docker. Il y a aussi un [terraform.mk](https://github.com/kapelal/terraform/blob/master/terraform.mk) pour tous les gouverner
 
-Dans [terraform.mk](https://github.com/kapelal/terraform/blob/master/terraform.mk) il faut éditer
+D'ailleurs il faut l'éditer afin de mettre le path de la clé du compte de service qui a été généré plus haut.
 ```
 ifndef CREDENTIALS
 	CREDENTIALS =
 endif
 ```
 
-Et mettre le path de la clé qui a été généré plus haut.
-
-Je résume ce qu'on va créer:
+Je résume:
 + Une zone reseau, un vpc
 + Une IP externe, l'ip qui sera derrière `kapelal.io`
 + Une résolution DNS, pour la connexion nom de domaine -> ip
