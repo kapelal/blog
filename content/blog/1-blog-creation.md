@@ -11,7 +11,7 @@ description = "Comment j'ai monté mon blog ? [Partie 1]"
 J'utilise Kubernetes depuis + d'un an au boulot et j'ai envie d'avoir des dépôts/outils/scripts pour mes prochaines utilisations. Ce blog est un prétexte pour faire tout ça.
 Il y a beaucoup plus simple, par exemple [netlify](https://www.netlify.com/)
 
-Ce n'est pas un tuto Google ou Terraform, ce n'est pas le but. C'est plus un exercice de présentation de ce qu'on peut faire avecgcloud/k8s/terraform
+Ce n'est pas un tuto Google ou Terraform, ce n'est pas le but. C'est plus un exercice de présentation de ce qu'on peut faire avec gcloud/k8s/terraform
 
 ### Liste des courses
 
@@ -22,7 +22,7 @@ Ce n'est pas un tuto Google ou Terraform, ce n'est pas le but. C'est plus un exe
 Un sensei m'a dit un jour:
 
 ```text
-Qui deploie à la main redéploie le lendemain
+Qui déploie à la main redéploie le lendemain
 ```
 
 En gros, un dépôt terraform avec toutes mon infra.
@@ -37,11 +37,11 @@ Une liste exhaustive des outils que je vais utiliser:
 
 ### Jour de Paye
 
-Avec une addresse `*.gmail.com`, on peut créer un compte [Google Cloud Platform](https://cloud.google.com/). 300 balles gratos ! C'est amplement suffisant pour se faire les dents.
+Avec une adresse `*.gmail.com`, on peut créer un compte [Google Cloud Platform](https://cloud.google.com/). 300 balles gratos ! C'est amplement suffisant pour se faire les dents.
 
 ### Multipass
 
-Sur la [cloud console](https://console.cloud.google.com/) dans `IAM / Administration` -> `Compte de service` il faut se créer un compte de service, genèrer une clé et la stocker sur son pc.
+Sur la [cloud console](https://console.cloud.google.com/) dans `IAM / Administration` -> `Compte de service` il faut se créer un compte de service, générer une clé et la stocker sur son pc.
 
 C'est fini, il n'y a plus aucune autre action manuelle.
 On continue à faire de l'infra mais sans les mains !
@@ -55,7 +55,7 @@ On a aussi besoin d'activer certaines api comme dns, compute et container.
 
 Un script qui fait tout ça [init/init.sh](https://github.com/kapelal/terraform/blob/master/init/init.sh)
 
-Coté nom de domaine, j'ai choisis de le prendre chez OVH. Faut pas oublier de faire le changement de la délégation DNS vers la zone DNS google
+Coté nom de domaine, j'ai choisi de le prendre chez OVH. Faut pas oublier de faire le changement de la délégation DNS vers la zone DNS google
 
 ### VPC / DNS / K8s avec Terraform
 
@@ -65,7 +65,7 @@ Coté nom de domaine, j'ai choisis de le prendre chez OVH. Faut pas oublier de f
 
 Le code se trouve ici [kapelal/terraform](https://github.com/kapelal/terraform)
 
-Dans chaque dossier on a quelques choses comme ça:
+Dans chaque dossier on a quelque chose comme ça:
 
 ```
 config.backend
@@ -140,7 +140,8 @@ endif
 ```
 
 Je résume:
-+ Une zone reseau, un vpc
+
++ Une zone réseau, un vpc
 + Une IP externe, l'ip qui sera derrière `kapelal.io`
 + Une résolution DNS, pour la connexion nom de domaine -> ip
 + Un K8s
