@@ -25,11 +25,11 @@ Un sensei m'a dit un jour:
 Qui déploie à la main redéploie le lendemain
 ```
 
-En gros, un dépôt terraform avec toutes mon infra.
+En gros, un dépôt terraform avec toute mon infra.
 
 ### Le marteau et la faucille
 
-Une liste exhaustive des outils que je vais utiliser:
+Une liste exhaustive des outils que je vais utiliser :
 
 + [gcloud](https://cloud.google.com/sdk/install)
 + [terraform](https://www.terraform.io/downloads.html)
@@ -50,10 +50,10 @@ On continue à faire de l'infra mais sans les mains !
 
 Terraform stocke l'état de l'infra dans un `.tfstate`. Sauvegarder c'est bien, mais si cela reste sur le pc c'est zéro !
 
-Il faut stocker tout ça dans un [bucket](https://cloud.google.com/storage/docs/creating-buckets)
+Il faut stocker tout ça dans un [bucket](https://cloud.google.com/storage/docs/creating-buckets).
 On a aussi besoin d'activer certaines api comme dns, compute et container.
 
-Un script qui fait tout ça [init/init.sh](https://github.com/kapelal/terraform/blob/master/init/init.sh)
+Un script qui fait tout ça : [init/init.sh](https://github.com/kapelal/terraform/blob/master/init/init.sh)
 
 Coté nom de domaine, j'ai choisi de le prendre chez OVH. Faut pas oublier de faire le changement de la délégation DNS vers la zone DNS google
 
