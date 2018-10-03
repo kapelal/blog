@@ -1,10 +1,12 @@
 +++
 title = "Comment j'ai monté mon blog ? [Partie 1]"
 date = 2018-09-17T14:01:24+02:00
-meta_img = "/images/image.jpg"
+meta_img = "/img/k8s-logo.png"
 tags = ["gcloud","terraform","kubernetes"]
 description = "Comment j'ai monté mon blog ? [Partie 1]"
 +++
+
+[[Part 2](http://kapelal.io/blog/creation-du-blog-partie-2)]
 
 ### Avant de commencer
 
