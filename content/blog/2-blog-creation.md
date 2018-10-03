@@ -18,7 +18,7 @@ Dans la première partie on a fait:
 + [DNS](https://github.com/kapelal/terraform/blob/master/dns/main.tf)
 + [Cluster K8s](https://github.com/kapelal/terraform/blob/master/k8s/main.tf)
 
-Et dans cette partie, on va installer un Hugo mais aussi un reverse proxy
+Et dans cette partie, on va installer un [Hugo](https://gohugo.io/) (website framework) mais aussi un reverse proxy
 
 On a besoin d'un RP devant Hugo sinon on ne peut pas relier kapelal.io -> Hugo
 
@@ -26,12 +26,12 @@ On a besoin d'un RP devant Hugo sinon on ne peut pas relier kapelal.io -> Hugo
 
 ### HELM
 
-On ne va pas écrire directement des manifests mais des templates (accompagné par des valeurs) grâce à [Helm](https://github.com/helm/helm/releases)
+On ne va pas écrire directement des manifests mais des templates (accompagnés par des valeurs) grâce à [Helm](https://github.com/helm/helm/releases)
 
 Normalement si on fait les choses bien, on a un dépôt de chart versionné (comme [Nexus](https://fr.sonatype.com/nexus-repository-sonatype) pour les artifacts Java) qui permet de déployer les charts Helm.
 Par exemple, celui par défaut dans Helm: [code](https://github.com/helm/charts) + [dépôt](https://kubernetes-charts.storage.googleapis.com/)
 
-Pour pas faire trop (ça m'arrange), je vais déployer ma chart [Hugo]() en local. Dans un prochain article j'installerai [chartmuseum](https://github.com/helm/chartmuseum)
+Pour pas faire trop (ça m'arrange), je vais déployer ma chart [Hugo](https://github.com/kapelal/helm/tree/master/hugo) en local. Dans un prochain article j'installerai [chartmuseum](https://github.com/helm/chartmuseum)
 ### Prérequis
 
 + [Helm](https://github.com/helm/helm/releases) ou un container avec
