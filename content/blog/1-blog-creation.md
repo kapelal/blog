@@ -6,7 +6,8 @@ tags = ["gcloud","terraform","kubernetes"]
 description = "Comment j'ai monté mon blog ? [Partie 1]"
 +++
 
-[[Part 2](http://kapelal.io/blog/creation-du-blog-partie-2)]
+[[Part 2](https://kapelal.io/blog/creation-du-blog-partie-2)]
+[[Part 3](https://kapelal.io/blog/creation-du-blog-partie-3)]
 
 ### Avant de commencer
 

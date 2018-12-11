@@ -7,7 +7,8 @@ description = "Comment j'ai monté mon blog ? [Partie 2]"
 slug = "Creation du blog [partie 2]"
 +++
 
-[[Part 1](http://kapelal.io/blog/comment-jai-monté-mon-blog--partie-1/)]
+[[Part 1](https://kapelal.io/blog/comment-jai-monté-mon-blog--partie-1/)]
+[[Part 3](https://kapelal.io/blog/creation-du-blog-partie-3)]
 
 ### Avant de commencer
 
