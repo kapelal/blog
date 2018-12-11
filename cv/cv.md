@@ -118,5 +118,5 @@ Versus Fighting, Bière !
 
 ----
 
-> <dessroberto@gmail.com> • +336 34 07 52 27 • kapelal \
+> <dessroberto@gmail.com> • +336 34 07 52 23 • kapelal \
 >  Alfortville

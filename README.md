@@ -4,8 +4,8 @@
 
 ## CV
 
-### PDF
+### Générer PDF
 
 - Enlever le bloc hugo
-- `cd cv && pandoc --standalone -c style.css --from markdown --to html -o index.html ./content/cv.md`
-- `cat index.html | wkhtmltopdf - cv.pdf`
+- `cd cv && pandoc --standalone -c cv.css --from markdown --to html -o index.html cv.md`
+- `cp cv.css /tmp && cat index.html | wkhtmltopdf - cv.pdf`
