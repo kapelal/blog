@@ -1,20 +1,10 @@
-+++
-title = "CV"
-date = 2018-07-03T16:34:27+02:00
-tags = ["CV"]
-description = "CV"
-slug = "CV"
-+++
-
-Téléchargement: [pdf](/cv.pdf)
-
 Roberto Barros De Sousa
 =========================
 
 ----
 
 > **Consultant DevOps - Dev Elixir/Golang**\
-> [http://kapelal.io](http://kapelal.io)\
+> **Blog:** [https://kapelal.io](https://kapelal.io)\
 
 ----
 
@@ -23,7 +13,7 @@ Expérience
 
 **De Juil 2016 - Consultant DevOps**(Ritmx, Paris)
 
-Consultant DevOps chez Ritmx à l'intérieur d'une équipe puis en SRE
+Consultant DevOps à l'intérieur d'une équipe puis en SRE
 
 Formation donnée en interne:
 
@@ -34,14 +24,15 @@ Formation donnée en interne:
 
 Actions:
 
-+ Migration Puppet/Ansible on premise -> Kubernetes chez GCP
-+ Mise en place de Vault
-+ Dev de controller Kubernetes en Golang
-+ Migration du monitoring/stack de log historique -> Prometheus/Fluent dans Kubernetes
-+ Infrastructure à la main -> Packer + Terraform
-+ CI/CD avec gitlab-ci
++ Infra on premise Puppet/Ansible -> Intégralité du parc sous Terraform/GCP/k8s/Helm
++ Nagios historique -> Prometheus dans k8s -> Prometheus Operator avec Thanos en storage
++ Controller K8s Custom, exemple: https://github.com/rodesousa/replicator
++ Génération de certif SSL avec Cert-manager
++ Fluent/Kibana dans k8s
++ Mise en place CI/CD des charts, script terraform (auto-tag des chart, déploiement staging -> prod)
++ Etude nginx -> Istio
 
-*Golang, Kubernetes, Gitlab-CI, Terraform, Prometheus, Google Cloud Platform, Vault, Helm*
+*Elixir, Golang, Java, Kubernetes, Gitlab-CI, Terraform, Prometheus, Google Cloud Platform, Vault, Helm*
 
 **Mars 2016 - Juil 2016 - Développeur Scala** (Figaro Classifieds, Paris)
 
@@ -92,6 +83,10 @@ Compétences
 **Langages**
 :   Elixir, Golang, Scala\
 
+
+**Cloud**
+:   GCP\
+
 **CI/CD**
 :   Gitlab CI/CD, Jenkins
 
@@ -99,7 +94,7 @@ Compétences
 :   Prometheus, Kibana, Grafana, Fluent
 
 **Divers**
-:   Kubernetes, Ansible, Consul, Vault, Packer, Git
+:   Kubernetes, Ansible, Consul, Vault, Packer, Git, Phoenix, Terraform, Docker
 
 Formation
 ---------
