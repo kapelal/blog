@@ -1,6 +1,6 @@
 +++
 title = "CV"
-date = 2018-07-03T16:34:27+02:00
+date = 2019-04-19T16:34:27+02:00
 tags = ["CV"]
 description = "CV"
 slug = "CV"
@@ -13,7 +13,7 @@ Roberto Barros De Sousa
 
 ----
 
-> **Consultant DevOps - Dev Elixir/Golang**\
+> **Consultant Kubernetes - Dev Elixir/Golang**\
 > **Blog:** [https://kapelal.io](https://kapelal.io)\
 
 ----
@@ -21,9 +21,23 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**De Juil 2016 - Consultant DevOps**(Ritmx, Paris)
+**De Fév 2019 - Kubernetes Consultant / Golang Dev**(Thalès Digital Factory, Paris)
 
-Consultant DevOps à l'intérieur d'une équipe puis en SRE
+Au sein d'une équipe SRE pour développer une plateforme afin de créer des clusters k8s AKS "prod ready" pour des équipes produits
+
++ Avec rancher, mise en place d'une distrib k8s pour la création de k8s estampillé "prod ready"
+	+ Monitoring
+	+ Securité
+	+ Ingress controller/DNS
+	+ Gestion des secrets 
++ Dev de controller/operator en golang pour administrer les clusters k8s créé
++ Transition interne Helm -> Kustomize
+
+*Golang, Kubernetes, Gitlab-CI, Terraform, Azure, AKS, Kustomize*
+
+**De Juil 2016 - Janvier 2019 - Consultant Kubernetes**(Ritmx, Paris)
+
+Consultant Kubernetes à l'intérieur d'une équipe puis en SRE
 
 Formation donnée en interne:
 
