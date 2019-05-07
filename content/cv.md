@@ -5,7 +5,6 @@ tags = ["CV"]
 description = "CV"
 slug = "CV"
 +++
-
 Téléchargement: [pdf](/cv.pdf)
 
 Roberto Barros De Sousa
