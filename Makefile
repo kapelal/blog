@@ -7,4 +7,4 @@ pdf:
 	cat cv/index.html | wkhtmltopdf - static/cv.pdf
 
 local:
-	hugo server -D
+	docker run -it -v /home/rdesousa/git/kapelal/blog:/site -w /site -p 1313:1313 kapelal/gohugo-docker server --bind 0.0.0.0 -D
