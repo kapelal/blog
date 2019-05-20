@@ -9,14 +9,14 @@ slug = "secret operator"
 
 Comme ces temps-ci, je fais pas mal d'operator k8s, j'ai décidé de refaire un de mes controllers en operator
 
-Petit rappel de c'est quoi un <a href="https://kapelal.io/blog/creation-du-blog-partie-3/#title_cert">operator/controller</a>
+Petit rappel de ce qu'est un <a href="https://kapelal.io/blog/creation-du-blog-partie-3/#title_cert">operator/controller</a>
 
 ## Encore 1 !
 
-Aujourd'hui il y a déjà des secrets operators qui font le taff. Beaucoup d'entre eux synchronise une source de vérité (AWS Secrets Manager, Vault..) et les secret K8s.
+Aujourd'hui il y a déjà des secrets operators qui font le taff. Beaucoup d'entre eux synchronisent une source de vérités (AWS Secrets Manager, Vault..) et les secrets K8s.
 De mon point de vue, quand le secret source est modifié, ce n'est pas trivial (va et viens entre l'operator et la source de vérité, qui peut être plus au moins long)
 
-Je préfère avoir un namespace "source de vérité" afin d'avoir une base sur laquelle je puisse m'appuyer, pour pas chère (`kubectl get secret`), lors des modifications des secrets sources.
+Je préfère avoir un namespace "source de vérité" afin d'avoir une base sur laquelle je puisse m'appuyer, pour pas cher (`kubectl get secret`), lors des modifications des secrets sources.
 
 Et j'ai envie de faire de l'Elixir avec [bonny][https://github.com/coryodaniel/bonny]
 
@@ -27,8 +27,8 @@ C'est à dire avoir des secrets tagués **mandatory** et les copier dans tous le
 
 Quelques soucis:
 
-+ Je n'ai pas facilement la liste de tous mes *mandatories* secret en une commande
-+ Il y a des cas où je n'ai pas envie de les avoirs partout
++ Je n'ai pas facilement la liste de tous mes *mandatories* secrets en une commande
++ Il y a des cas où je n'ai pas envie de les avoir partout
 + Je ne peux pas rajouter, à chaud, des secrets sans redémarrer mon controller
 
 Pour pallier à tout ça, j'ai décidé de faire une CRD :
