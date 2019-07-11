@@ -198,3 +198,5 @@ Pour moi en tout cas, je pense que ce mouvement DevOps permet de mieux comprendr
 On résume souvent le DevOps à la partie automatisation. C'est marrant comment le S(hare) de CALMS est mineur dans toutes ces transformations.
 
 Et si c'était l'une des solutions ?
+
+*PS: merci à mon [Vincent Cornet](https://www.linkedin.com/in/vincent-cornet-030ab387/)*
