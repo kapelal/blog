@@ -19,7 +19,7 @@ En tout cas l'un des points communs, c'est la division du travail.
 
 ### What ??
 
-Dans *la richesse des nations* d'Adam Smith, il tombe sur une entreprise qui fabrique des aiguilles. Il remarque que l'entreprise a découpé les tâches pour que les ouvriers se concentrent sur un seul type d'opération et à pour conséquence d'augmenter nettement la production d'aiguille. A. Smith comprend que cette spécialisation des métiers est un coefficient multiplicateur de la production et rend indissociable le progrès économique et la division du travail. 
+Dans *la richesse des nations* d'Adam Smith, il tombe sur une entreprise qui fabrique des aiguilles. Il remarque que l'entreprise a découpé les tâches pour que les ouvriers se concentrent sur un seul type d'opération et a pour conséquence d'augmenter nettement la production d'aiguille. A. Smith comprend que cette spécialisation des métiers est un coefficient multiplicateur de la production et rend indissociable le progrès économique et la division du travail. 
 
 SHAZAM ! Le terme division du travail est né.
 
@@ -67,7 +67,7 @@ Mais si on me demande quand même je dirais:
 
 Je vais essayer modestement d'écrire ce que j'ai constaté pendant mes missions et lors de mes débats avec d'autres collègues.
 
-Le fil rouge c'est bien de regardé les effets de la division du travail dans l'IT. J'ajouterai un peu des implémentation de la culture DevOps que j'ai vu et un peu d'Agile.
+Le fil rouge c'est bien de regarder les effets de la division du travail dans l'IT. J'ajouterai un peu des implémentations de la culture DevOps que j'ai vues et un peu d'Agile.
 
 C'est ma vérité (et non pas la vérité vraie), donc ne vaut pas grand chose ... après si je peux vous déterminer ;)
 
@@ -85,7 +85,7 @@ Et comme l'Agile est partout, qu'est ce qu'on retrouve en son coeur ? Le **backl
 
 Alors on divise pour finir (toujours plus) des users stories du backlog.
 
-Si on fait un mapping foireux avec le backlog et la division, on peut définir le backlog comme le **dividende** de la division (ou la somme des points de complexité des users stories), les différentes de users stories en **diviseur** et leurs points de complexité en **quotient**.
+Si on fait un mapping foireux avec le backlog et la division, on peut définir le backlog comme le **dividende** de la division (ou la somme des points de complexité des users stories), les différentes users stories en **diviseur** et leurs points de complexité en **quotient**.
 
 Et le **reste** ?
 
@@ -103,7 +103,7 @@ Le reste, c'est ce qui n'est pas divisible. Donc pas de story dans le backlog.
 
 On essaye quand même de jouer le jeu en expliquant pourquoi c'est necéssaire d'intégrer ce reste pendant les groomings, plannings et rétros.
 
-On peut voir l'apparition de backlogs transverse, techniques, DevOps, dette afin de quand même lister ce qu'on pense légitime ... mais finit dans des tableaux jira oubliés.
+On peut voir l'apparition de backlogs transverses, techniques, DevOps, dette afin de quand même lister ce qu'on pense légitime ... mais finit dans des tableaux jira oubliés.
 Et de semaine en semaine on se détermine à accepter cette division. C'est le backlog qui mène la danse, l'équipe suit le pas.
 
 > On voit du shadow apparaitre, spasme musculaire d'un idéal lointain, afin de réaliser ce qui n'est pas dans le backlog.
@@ -114,7 +114,7 @@ Donc on peut constater que la question du qui divise permet de contrôler ce que
 
 Depuis peu, j'ai l'intime conviction que les travailleurs (ceux qui utilisent vim, intellij ou visual studio) peuvent, et doivent, s'auto-organiser.
 
-Ce n'est pas une critique de l'Agile et je ne dis pas que l'équipe doit rentre des comptes qu'à elle même.
+Ce n'est pas une critique de l'Agile et je ne dis pas que l'équipe doit rendre des comptes qu'à elle même.
 
 J'essaye d'exprimer que comme la division est au/le coeur du backlog, la question des **rapports de force** de qui choisit les users stories, leur complexité et surtout leurs priorités est essentielle à une bonne organisation du travail.
 
@@ -144,7 +144,7 @@ Selon l'**IYO**, on va identifier ce rouage comme problème dans le cycle de vie
 Qu'es ce qu'on a avec une difficulté non partagée ? Des gens un peu seuls dans leur misère.
 
 > « Parce que c'est pas mon périmètre !
-> Moi j'ai déjà assez de taff. J'aime aussi prendre mon temps mais de toute façon c'est pas à mois de rendre des comptes sur cette partie ! 
+> Moi j'ai déjà assez de taff. J'aime aussi prendre mon temps mais de toute façon c'est pas à moi de rendre des comptes sur cette partie ! 
 >
 > Chacun sa merde ! On peut pas être au four et au moulin ! »
 >
@@ -170,7 +170,7 @@ Si pas de commun ... on divise. Communauté des archis, des dev, des ops, de pro
 
 On a tous vu dans les présentations DevOps, des schémas de mur entre le dev et l'ops avec une image de superman qui casse le mur...
 
-> « Si notre entitée SRE qui gère notre usine logicielle pour simplifier les déploiements, n'a pas dans sa bibliothèque le middleware qu'on demande. Faut attendre ! Même si on est les seuls pour l'instant, faut bien que l'équipe SRE sorte une implémentation assez générique pour des futures équipes. Et faut que Vincent notre DevOps aille porté nos problématiques chez eux. Il va être charger pour lui ce sprint ! »
+> « Si notre entitée SRE qui gère notre usine logicielle pour simplifier les déploiements, n'a pas dans sa bibliothèque le middleware qu'on demande. Faut attendre ! Même si on est les seuls pour l'instant, faut bien que l'équipe SRE sorte une implémentation assez générique pour des futures équipes. Et faut que Vincent notre DevOps aille porter nos problématiques chez eux. Il va être chargé pour lui ce sprint ! »
 >
 > Romain
 
