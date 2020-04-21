@@ -20,7 +20,19 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**De Fév 2019 - Kubernetes Consultant / Golang Dev**(Thalès Digital Factory, Paris)
+
+**De Mai 2019 à Mars 2020 - Développeur Sénior Elixir (Pandascore)**
+
+Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
+
++ Développement Elixir avec Phoenix, Ecto, Cowboy, ETL
++ Formation donnée sur Kubernetes, git
++ Transition interne Helm -> Kustomize
++ Amélioration CI/CD
+
+*Elixir, Kubernetes, ETL, Phoenix, Prometheus, RabbitMQ, PostgreSQL, Kustomize, Google Cloud*
+
+**De Fév 2019 à Mai 2019 - Kubernetes Consultant / Golang Dev**(Thalès Digital Factory, Paris)
 
 Au sein d'une équipe SRE pour développer une plateforme afin de créer des clusters k8s AKS "prod ready" pour des équipes produits
 
@@ -34,7 +46,7 @@ Au sein d'une équipe SRE pour développer une plateforme afin de créer des clu
 
 *Golang, Kubernetes, Gitlab-CI, Terraform, Azure, AKS, Kustomize*
 
-**De Juil 2016 - Janvier 2019 - Consultant Kubernetes**(Ritmx, Paris)
+**De Juil 2016 à Janvier 2019 - Consultant Kubernetes**(Ritmx, Paris)
 
 Consultant Kubernetes à l'intérieur d'une équipe puis en SRE
 
@@ -57,7 +69,7 @@ Actions:
 
 *Elixir, Golang, Java, Kubernetes, Gitlab-CI, Terraform, Prometheus, Google Cloud Platform, Vault, Helm*
 
-**Mars 2016 - Juil 2016 - Développeur Scala** (Figaro Classifieds, Paris)
+**De Mars 2016 à Juil 2016 - Développeur Scala** (Figaro Classifieds, Paris)
 
 Développeur sur Keljob.com
 
@@ -67,7 +79,7 @@ Développeur sur Keljob.com
 
 *Docker, Scala, Play2, Redis, ElasticSearch, Kibana, MongoDB*
 
-**Avr 2015 - Mars 2016 - Consultant DevOps && Bigdata** (Banque de France, Paris)
+**De Avr 2015 à Mars 2016 - Consultant DevOps && Bigdata** (Banque de France, Paris)
 
 Consultant DevOps dans le pôle Bigdata
 
@@ -78,7 +90,7 @@ Consultant DevOps dans le pôle Bigdata
 
 *Python, Bash, Git, Puppet, Puppet Enterprise, Elasticsearch, Spark, MongoDB, mcollective, Hadoop, Logstash, Docker, Zookeeper*
 
-**Avr 2015 - Mars 2016 - Développeur Java** (VSCt, Paris)
+**De Avr 2015 à Mars 2016 - Développeur Java** (VSCt, Paris)
 
 Développeur chez VSCt
 
@@ -88,7 +100,7 @@ Développeur chez VSCt
 
 *Java 8, Spring, AngularJS, Git*
 
-**Avr 13 - Nov 14 - Développeur Java** (Sopra, Paris)
+**De Avr 13 à Nov 14 - Développeur Java** (Sopra, Paris)
 
 Développement d'une plateforme de messagerie sécurisée avec le webmail Zimbra pour l'ASIP
 
