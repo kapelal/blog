@@ -50,4 +50,4 @@ Or, de confession drouate ou gôche, ils seraient malhonnêtes de penser que nou
 Donc je vais essayer de structurer ça. Parce que surtout ça m'intéresse, mais aussi, modestement, participer à une critique sur l'Agile trop peu existante.
 Je vous cache pas que *j'ai vomi deux sceaux* (comme dirait un autre ami) avec tout ce **travail**.
 
-PS: l'orthographe de "droute ou gôche" vient de là: [Gauche/droite : revoyons les bases, par Usul](https://www.youtube.com/watch?v=sVJpvO-ywjE)
+PS: l'orthographe de "drouate ou gôche" vient de là: [Gauche/droite : revoyons les bases, par Usul](https://www.youtube.com/watch?v=sVJpvO-ywjE)
