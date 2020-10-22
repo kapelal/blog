@@ -11,15 +11,14 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-
-**De Mai 2019 à Mars 2020 - Développeur Sénior Elixir (Pandascore)**
+**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir (Pandascore)**
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
-+ Développement Elixir avec Phoenix, Ecto, Cowboy, ETL
++ Développement Elixir avec Phoenix, LiveView, Ecto, Cowboy, ETL
 + Formation donnée sur Kubernetes, git
 + Transition interne Helm -> Kustomize
-+ Amélioration CI/CD
++ Amélioration CI/CD, Postgres, Kubernetes
 
 *Elixir, Kubernetes, ETL, Phoenix, Prometheus, RabbitMQ, PostgreSQL, Kustomize, Google Cloud*
 

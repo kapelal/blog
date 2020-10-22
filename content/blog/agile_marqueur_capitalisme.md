@@ -4,7 +4,7 @@ date = 2020-06-08T14:01:24+02:00
 meta_img = "/img/agile-capitalisme/critique.png"
 tags = ["critique","agile"]
 description = "Présentation de mon travail sur une critique de l'Agile"
-slug = "La méthode Agile marqueur de notre mode de production"
+slug = "La methode Agile marqueur de notre mode de production"
 +++
 
 J'ai écrit l'article suivant [Division du travail & DevOps](https://kapelal.io/blog/division-du-travail-it-et-devops/) avec l'indispensable collaboration de Vincent Cornet en 2019 et depuis nous avons entrepris de travailler ensemble sur une critique de l'Agile *française concrète*. Des lectures, des visionnages, des débats, etc.
