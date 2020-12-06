@@ -16,7 +16,7 @@
                     <ul>
                     {{ $rq1 := where .Pages "Section" "blog" }}
                     {{ $rq2 := where .Pages "Section" "projet" }}
-                    {{ range (first .Site.Params.latestpostcount ($rq1 | union $rq2)).GroupByDate "Jan, 2006" "desc" }}
+                    {{ range (first .Site.Params.latestpostcount $rq1 ).GroupByDate "Jan, 2006" "desc" }}
                         <li class="groupby">{{ .Key }}</li>
                         {{ range .Pages.ByPublishDate }}
                             {{ partial "li.html" . }}
