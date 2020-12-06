@@ -1,6 +1,6 @@
 +++
 title = "L'Agile comme méthode de dépossession de la qualification du travail"
-date = 2020-06-12T14:01:24+02:00
+date = 2020-12-06T14:01:24+02:00
 meta_img = "/img/agile-capitalisme/critique.png"
 tags = ["critique","agile"]
 description = "Présentation de mon travail sur une critique de l'Agile"
