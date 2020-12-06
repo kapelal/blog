@@ -11,13 +11,12 @@
             {{ if isset .Site.Params "latestpostcount" }}
                 <div class="posts">
                 {{ $nbPosts := len (where .Data.Pages "Section" "blog") }}
-                
+                {{ if gt $nbPosts 0 }}
                     <div class="page-heading">Latest posts</div>
                     <ul>
-                    {{ $rq1 := where .Pages "Section" "agile"  }}
-                    {{ $rq2 := where .Pages "Section" "tech" }}
-                    {{ $filtered := $rq1 | intersect $rq2 }}
-                    {{ range (first 5 ($rq1)).GroupByDate "Jan, 2006" "desc" }}
+                    {{ $rq1 := where .Pages "Section" "blog" }}
+                    {{ $rq2 := where .Pages "Section" "projet" }}
+                    {{ range (first .Site.Params.latestpostcount ($rq1 | union $rq2)).GroupByDate "Jan, 2006" "desc" }}
                         <li class="groupby">{{ .Key }}</li>
                         {{ range .Pages.ByPublishDate }}
                             {{ partial "li.html" . }}
@@ -25,6 +24,7 @@
                     {{ end }}
                     </ul>
 
+                {{ end }}
                 </div>
             {{ end }}
 
@@ -41,7 +41,6 @@
                 </ul>
             {{ end }}
             </div>
-
         </div>
     </div>
 </section>
