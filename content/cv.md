@@ -20,15 +20,15 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant IT ** (Freelance)
+**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant IT** (Freelance)
 
 + Principalement développement Phoenix, AlpineJS, Liveview (front et back)
 + Consultant management d'équipe
 + Formation donnée sur postgreSQL, kubernetes, ci/cd, git
 
-** Elixir, Postgres, Scalingo, Kubernetes, **
+*Elixir, Postgres, Scalingo, Kubernetes, Tailwind*
 
-**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir ** (Pandascore)
+**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir** (Pandascore)
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
@@ -39,7 +39,7 @@ Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandasco
 
 *Elixir, Kubernetes, ETL, Phoenix, Prometheus, RabbitMQ, PostgreSQL, Kustomize, Google Cloud*
 
-**De Fév 2019 à Mai 2019 - Kubernetes Consultant / Golang Dev**(Thalès Digital Factory, Paris)
+**De Fév 2019 à Mai 2019 - Kubernetes Consultant / Golang Dev** (Thalès Digital Factory, Paris)
 
 Au sein d'une équipe SRE pour développer une plateforme afin de créer des clusters k8s AKS "prod ready" pour des équipes produits
 

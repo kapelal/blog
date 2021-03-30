@@ -11,13 +11,13 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant IT ** (Freelance)
+**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant IT** (Freelance)
 
 + Principalement développement Phoenix, AlpineJS, Liveview (front et back)
 + Consultant management d'équipe
 + Formation donnée sur postgreSQL, kubernetes, ci/cd, git
 
-** Elixir, Postgres, Scalingo, Kubernetes, Tailwind**
+*Elixir, Postgres, Scalingo, Kubernetes, Tailwind*
 
 **De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir ** (Pandascore)
 
