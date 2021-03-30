@@ -19,7 +19,7 @@ Expérience
 
 *Elixir, Postgres, Scalingo, Kubernetes, Tailwind*
 
-**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir ** (Pandascore)
+**De Mai 2019 à Septembre 2020 - Développeur Senior Elixir ** (Pandascore)
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
