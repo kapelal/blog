@@ -11,12 +11,13 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant Kubernetes  ** (Freelance)
+**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant IT ** (Freelance)
 
-+ Développement Phoenix, AlpineJS, Liveview (front et back)
++ Principalement développement Phoenix, AlpineJS, Liveview (front et back)
++ Consultant management d'équipe
 + Formation donnée sur postgreSQL, kubernetes, ci/cd, git
 
-** Elixir, Postgres, Scalingo, Kubernetes, **
+** Elixir, Postgres, Scalingo, Kubernetes, Tailwind**
 
 **De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir ** (Pandascore)
 
@@ -108,25 +109,6 @@ Développement d'une plateforme de messagerie sécurisée avec le webmail Zimbra
 - Création de scénario et installation de teste de charge JMeter
 - CI/CD sous jenkins
 - Mise en place d'une industrialisation avec Puppet
-
-Compétences
-----------------------------------
-
-**Langages**
-:   Elixir, Golang, Scala\
-
-
-**Cloud**
-:   GCP\
-
-**CI/CD**
-:   Gitlab CI/CD, Jenkins
-
-**Monitoring**
-:   Prometheus, Kibana, Grafana, Fluent
-
-**Divers**
-:   Kubernetes, Ansible, Consul, Vault, Packer, Git, Phoenix, Terraform, Docker
 
 Formation
 ---------
