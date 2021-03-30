@@ -20,8 +20,14 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
+**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant Kubernetes  ** (Freelance)
 
-**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir (Pandascore)**
++ Développement Phoenix, AlpineJS, Liveview (front et back)
++ Formation donnée sur postgreSQL, kubernetes, ci/cd, git
+
+** Elixir, Postgres, Scalingo, Kubernetes, **
+
+**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir ** (Pandascore)
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
