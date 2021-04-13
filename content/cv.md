@@ -94,7 +94,7 @@ Développeur chez VSCt
 - Développement Java 1.8, AngularJS
 - Évangélisation sur la programmation fonctionnel avec Java 1.8
 
-**Avr 13 à Nov 14 - Développeur Java** (Sopra, Paris)
+**Avr 2013 à Nov 2014 - Développeur Java** (Sopra, Paris)
 
 Mise en place d'une plateforme de messagerie sécurisée pour les professionnels de santé. J'ai commencé en tant que développeur pour m’intéresser par la suite à des problématique DevOps.
 
