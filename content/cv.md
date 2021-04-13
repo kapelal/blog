@@ -20,44 +20,43 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**De Septembre 2020 à Février 2021 - Développeur Senior Elixir / Consultant IT** (Freelance)
+**Depuis Septembre 2020 - Développeur Senior Elixir / Consultant Kubernetes** (Freelance)
 
-+ Principalement développement Phoenix, AlpineJS, Liveview (front et back)
-+ Consultant management d'équipe
-+ Formation donnée sur postgreSQL, kubernetes, ci/cd, git
+Divers missions très courte en Freelance
 
-*Elixir, Postgres, Scalingo, Kubernetes, Tailwind*
+- Principalement développement Phoenix, AlpineJS, Liveview (front et back)
+- Consultant management d’équipe
+- Formations données sur postgreSQL, kubernetes, ci/cd, git
 
-**De Mai 2019 à Septembre 2020 - Développeur Sénior Elixir** (Pandascore)
+**Mai 2019 à Septembre 2020 - Développeur Senior Elixir ** (Pandascore)
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
 + Développement Elixir avec Phoenix, LiveView, Ecto, Cowboy, ETL
 + Formation donnée sur Kubernetes, git
 + Transition interne Helm -> Kustomize
-+ Amélioration CI/CD, Postgres, Kubernetes
++ Lead CI/CD, Kubernetes
 
-*Elixir, Kubernetes, ETL, Phoenix, Prometheus, RabbitMQ, PostgreSQL, Kustomize, Google Cloud*
+**Fév 2019 à Mai 2019 - Kubernetes Consultant / Golang Dev**(Thalès Digital Factory, Paris)
 
-**De Fév 2019 à Mai 2019 - Kubernetes Consultant / Golang Dev** (Thalès Digital Factory, Paris)
+Au sein d'une équipe SRE pour développer une plateforme de K8s à la demande
 
-Au sein d'une équipe SRE pour développer une plateforme afin de créer des clusters k8s AKS "prod ready" pour des équipes produits
-
-+ Avec rancher, mise en place d'une distrib k8s pour la création de k8s estampillé "prod ready"
++ Mise en place de rancher pour créer à la volé des k8s
 	+ Monitoring
 	+ Securité
 	+ Ingress controller/DNS
 	+ Gestion des secrets 
-+ Dev de controller/operator en golang pour administrer les clusters k8s créé
++ Dev de controller/operator en golang/elixir
 + Transition interne Helm -> Kustomize
 
-*Golang, Kubernetes, Gitlab-CI, Terraform, Azure, AKS, Kustomize*
+**Juil 2016 à Janvier 2019 - Consultant Kubernetes**(Ritmx, Paris)
 
-**De Juil 2016 à Janvier 2019 - Consultant Kubernetes**(Ritmx, Paris)
+Consultant DevOps à l'interieur de l'équipe infra puis,
+consultant Kubernetes à l'intérieur d'une équipe SRE,
+consultant Kubernetes à l'intérieur d'une feature team
 
-Consultant Kubernetes à l'intérieur d'une équipe puis en SRE
 
-Formation donnée en interne:
+Formation donnée:
 
 + Git
 + Kubernetes pour Dev
@@ -66,77 +65,55 @@ Formation donnée en interne:
 
 Actions:
 
-+ Infra on premise Puppet/Ansible -> Intégralité du parc sous Terraform/GCP/k8s/Helm
-+ Nagios historique -> Prometheus dans k8s -> Prometheus Operator avec Thanos en storage
-+ Controller K8s Custom, exemple: https://github.com/rodesousa/replicator
-+ Génération de certif SSL avec Cert-manager
-+ Fluent/Kibana dans k8s
-+ Mise en place CI/CD des charts, script terraform (auto-tag des chart, déploiement staging -> prod)
-+ Etude nginx -> Istio
++ Migration script sh vers du on premise Puppet/Ansible
++ Migration Puppet/Ansible vers Terraform/GCP/k8s/Helm
++ Migration Nagios vers Prometheus avec du Thanos en storage
++ Controller K8s Custom sous Elixir
++ Lead sur la gestion des logs (Fluent/Kibana)
++ Lead sur la CI/CD
 
-*Elixir, Golang, Java, Kubernetes, Gitlab-CI, Terraform, Prometheus, Google Cloud Platform, Vault, Helm*
-
-**De Mars 2016 à Juil 2016 - Développeur Scala** (Figaro Classifieds, Paris)
-
-Développeur sur Keljob.com
+**Mars 2016 à Juil 2016 - Développeur Scala** (Keljob.com)
 
 - Développement Scala/Play2
 - Création de visualisations et dashboards anti-crawl avec ES/Kibana3
-- Conteneurisation de l'environnement de dev
+- Lead sur la mise d'environnement de dev sous docker
 
-*Docker, Scala, Play2, Redis, ElasticSearch, Kibana, MongoDB*
-
-**De Avr 2015 à Mars 2016 - Consultant DevOps && Bigdata** (Banque de France, Paris)
+**Avr 2015 à Mars 2016 - Consultant DevOps && Bigdata** (Banque de France, Paris)
 
 Consultant DevOps dans le pôle Bigdata
 
-- Développement d'une plate-forme de post-install (Python/Scala/Play2)
-- Mise en place de module Puppet: ES, MongoDB, Hadoop, Spark
-- Mise en place d'un service de métrologie avec ELK
+- Développement d'une plate-forme de post-install Scala, Play2
+- Développement de module Puppet: ES, MongoDB, Hadoop, Spark
+- Mise en place de ELK
 - Mise en place d'une plateforme automatisée de test pour module puppet avec Docker
 
-*Python, Bash, Git, Puppet, Puppet Enterprise, Elasticsearch, Spark, MongoDB, mcollective, Hadoop, Logstash, Docker, Zookeeper*
-
-**De Avr 2015 à Mars 2016 - Développeur Java** (VSCt, Paris)
+**Déc 2014 à Avr 2015 - Développeur Java** (VSCt, Paris)
 
 Développeur chez VSCt
 
-- Développement en Java8
+- Développement Java 1.8, AngularJS
 - Évangélisation sur la programmation fonctionnel avec Java 1.8
-- Contribution au développement de la refonte d'un outils interne: Struts => AngularJS
 
-*Java 8, Spring, AngularJS, Git*
+**Avr 13 à Nov 14 - Développeur Java** (Sopra, Paris)
 
-**De Avr 13 à Nov 14 - Développeur Java** (Sopra, Paris)
+Mise en place d'une plateforme de messagerie sécurisée pour les professionnels de santé. J'ai commencé en tant que développeur pour m’intéresser par la suite à des problématique DevOps.
 
-Développement d'une plateforme de messagerie sécurisée avec le webmail Zimbra pour l'ASIP
 
-- Développement en Perl, PHP, Java7
-- Mise en place d'une journalisation (Syslog/LogAnalyser) au sein de la plateforme, côté serveur et client.
-- Utilisation de Vagrant pour créer des environnement personnalisable et jetable
-- Mise en place d'une solution ELK
-- Création de scénario et installation de teste de charge JMeter
-- CI/CD sous jenkins
+Développement :
+
+- Développement en Perl, PHP
+- Batch PHP/Perl pour Elasticsearch
+- Développement J2EE avec le CMS Liferay sous JBOSS
+- Développement de portlet (Struts2)
+
+Infra :
+
+- Config et installation de httpd, MySQL, Jenkins, ELK
+- Mise en place d'une journalisation (Syslog/LogAnalyser)
+- Industrialisation d'environnement de dev avec Vagrant
+- Mise en place de jMeter avec scénario et analyse
 - Mise en place d'une industrialisation avec Puppet
-
-Compétences
-----------------------------------
-
-**Langages**
-:   Elixir, Golang, Scala\
-
-
-**Cloud**
-:   GCP\
-
-**CI/CD**
-:   Gitlab CI/CD, Jenkins
-
-**Monitoring**
-:   Prometheus, Kibana, Grafana, Fluent
-
-**Divers**
-:   Kubernetes, Ansible, Consul, Vault, Packer, Git, Phoenix, Terraform, Docker
+- Lead sur la partie CI/CD
 
 Formation
 ---------
@@ -148,12 +125,11 @@ Formation
 2007-2011
 :   *Licence Informatique - Université Denis Diderot (Paris VII)*
 
-Centre d'intérêt
+Projet perso
 ------------------------
 
-Versus Fighting, Bière !
++ Écriture d'article sur une critique de l'agile
 
 ----
 
-> <dessroberto@gmail.com> • 06 34 07 52 23 • kapelal \
->  Alfortville
+> dessroberto at gmail com
