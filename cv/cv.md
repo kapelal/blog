@@ -11,7 +11,7 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**Depuis Septembre 2020 - Développeur Senior Elixir / Consultant Kubernetes** (Freelance)
+**Depuis Septembre 2020 - Fullstack Elixir / Consultant Kubernetes** (Freelance)
 
 Divers missions très courte en Freelance
 
