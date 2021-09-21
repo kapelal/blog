@@ -35,7 +35,7 @@ Divers missions très courte en freelance chez Jobia en tant que lead dev
 + Management d’équipe de 5 personnes
 + Formations données sur postgreSQL, kubernetes, ci/cd, git, elixir
 
-**Mai 2019 à Septembre 2020 - Développeur Senior Elixir** (Pandascore)
+**Mai 2019 à Mai 2020 - Développeur Senior Elixir** (Pandascore)
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
