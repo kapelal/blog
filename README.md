@@ -13,3 +13,9 @@ make html pdf
 ```
 make local
 ```
+
+## Edit CV
+
+Edit:
+- [cv.md](./cv/cv.md)
+- [cv.md](./content/cv.md)
