@@ -13,9 +13,9 @@ Expérience
 
 **Depuis Juin 2021 - DevOps** (Arkhn)
 
-Mission de reconstruction du déploiement
+Mission de reconstruction du déploiement d'infra
 
-+ Total refacto du déploiement (problématiqque de déploiement chez des clients)
++ Total refacto du déploiement (problématiqque de déploiement infra de notre produit chez des clients)
 + Diffusion de best pratice dev / infra
 
 **Mai 2020 à Juin 2021 - Tech Lead Elixir** (Jobia)
