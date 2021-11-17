@@ -11,12 +11,11 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**Depuis Juin 2021 - DevOps** (Arkhn)
+**Depuis Juin 2021 - Tech Lead Infra/Dev** (Arkhn)
 
-Mission de reconstruction du déploiement d'infra
-
-+ Total refacto du déploiement (problématiqque de déploiement infra de notre produit chez des clients)
-+ Diffusion de best pratice dev / infra
+- Refactor du déploiement d'infra sur du on-premise (ansible, packer)
+- Gros travail d'optimisation Postgres (indexage, import, export, volumétrie en milliard de ligne)
+- Evangélisation sur: TDD, CI/CD, versionning 
 
 **Mai 2020 à Juin 2021 - Tech Lead Elixir** (Jobia)
 
