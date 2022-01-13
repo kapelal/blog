@@ -11,7 +11,7 @@ Roberto Barros De Sousa
 Expérience
 --------------------
 
-**Depuis Juin 2021 - Tech Lead Infra/Dev** (Arkhn)
+**Depuis Juin 2021 - DevOps / Senior Dev** (Arkhn)
 
 - Refactor du déploiement d'infra sur du on-premise (ansible, packer)
 - Gros travail d'optimisation Postgres (indexage, import, export, volumétrie en milliard de ligne)
