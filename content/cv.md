@@ -13,35 +13,44 @@ Roberto Barros De Sousa
 ----
 
 > **Développeur Fullstack Elixir - Tech Lead**\
-> **Blog:** [https://kapelal.io](https://kapelal.io)\
 
 ----
 
 Expérience
 --------------------
 
-**Depuis Juin 2021 - DevOps / Senior Dev** (Arkhn)
+**Depuis Février 2022 - Lead Dev Elixir, Front/Back** (Sapiologie)
 
-- Refactor du déploiement d'infra sur du on-premise (ansible, packer)
-- Gros travail d'optimisation Postgres (indexage, import, export, volumétrie en milliard de ligne)
-- Evangélisation sur: TDD, CI/CD, versionning 
+Création d'un ERP spécialisé dans le calcul de l'empreinte écologique et social à destination TPE/PME
 
-**Mai 2020 à Juin 2021 - Tech Lead Elixir** (Jobia)
++ Front: Phoenix Liveview (elixir), Tailwind, Typescript
++ Back: Phoenix (elixir)
++ Implémentation d'une base graph [datomic](https://www.datomic.com/) en elixir sur postgres
++ Management: Mise en place de [shape up](https://basecamp.com/shapeup)
 
-Divers missions très courte en freelance chez Jobia en tant que lead dev
+**Juin 2021 à Février 2022 - DevOps / Senior Dev** (Arkhn)
 
-+ Développement API sous Phoenix, AlpineJS, Liveview (front et back)
-+ Management d’équipe de 5 personnes
++ Infra: Refactor du déploiement sur du on-premise & cloud: Ansible, Packer, Scaleway
++ Gros travail d'optimisation Postgres (indexage, import, export, volumétrie en milliard de ligne)
++ Evangélisation sur: TDD, CI/CD, versionning 
+
+**Mai 2020 à Juin 2021 - Head of tech, Lead Dev** (Jobia, freelance)
+
+Divers missions très courte en freelance chez Jobia et d'autres missions en freelance en consultant lead
+
++ Front: Phoenix Liveview (elixir), Tailwind, Typescript
++ Back: API sous Phoenix
++ Management: Mise en place de [shape up](https://basecamp.com/shapeup)
 + Formations données sur postgreSQL, kubernetes, ci/cd, git, elixir
 
 **Mai 2019 à Mai 2020 - Développeur Senior Elixir** (Pandascore)
 
 Au sein de l'équipe qui s'occupe de tous les logiciels autour de l'API Pandascore
 
-+ Développement API avec Phoenix, LiveView, Ecto, Cowboy, ETL
-+ Formation donnée sur Kubernetes, git
-+ Transition interne Helm -> Kustomize
-+ Lead CI/CD, Kubernetes
++ Back: API avec Phoenix, LiveView, Cowboy, ETL
++ Formation donnée: Kubernetes, Git
++ Infra: Migration de Helm vers Kustomize
++ Lead CI/CD, bonne pratique Kubernetes
 
 **Fév 2019 à Mai 2019 - Kubernetes Consultant / Golang Dev**(Thalès Digital Factory, Paris)
 
@@ -58,21 +67,13 @@ Consultant DevOps à l'interieur de l'équipe infra puis,
 consultant Kubernetes à l'intérieur d'une équipe SRE,
 consultant Kubernetes à l'intérieur d'une feature team
 
-Formation donnée:
-
-+ Git
-+ Kubernetes pour Dev
-+ Ansible
-+ Docker
-
-Actions:
-
-+ Migration script sh vers du on premise Puppet/Ansible
-+ Migration Puppet/Ansible vers Terraform/GCP/k8s/Helm
-+ Migration Nagios vers Prometheus avec du Thanos en storage
++ Formation donnée: Git, Kubernetes pour Dev, Ansible, Docker
++ Migration script sh vers du on premise Puppet/Ansible puis vers Terraform/GCP/k8s/Helm
++ Migration Nagios vers Prometheus avec Thanos en storage
 + Controller K8s Custom sous Elixir
 + Lead sur la gestion des logs (Fluent/Kibana)
 + Lead sur la CI/CD
++ Travail de recherche et d'écriture sur une critique des mangagements Agile avec Vincent Cornet
 
 **Mars 2016 à Juil 2016 - Développeur Scala** (Keljob.com)
 
@@ -84,14 +85,13 @@ Actions:
 
 Consultant DevOps dans le pôle Bigdata
 
-+ Développement d'une plate-forme de post-install Scala, Play2
 + Développement de module Puppet: ES, MongoDB, Hadoop, Spark
-+ Mise en place de ELK
-+ Mise en place d'une plateforme automatisée de test pour module puppet avec Docker
++ Expertise sur la stack ELK
++ Mise en place d'une plateforme automatisée de test pour module puppet avec Docker (Scala)
 
 **Déc 2014 à Avr 2015 - Développeur Java** (VSCt, Paris)
 
-Développeur chez VSCt
+Développeur chez Voyage-SCNF
 
 + Développement Java 1.8, AngularJS
 + Évangélisation sur la programmation fonctionnel avec Java 1.8
@@ -99,7 +99,6 @@ Développeur chez VSCt
 **Avr 2013 à Nov 2014 - Développeur Java** (Sopra, Paris)
 
 Mise en place d'une plateforme de messagerie sécurisée pour les professionnels de santé. J'ai commencé en tant que développeur pour m’intéresser par la suite à des problématique DevOps.
-
 
 Développement :
 
@@ -120,14 +119,16 @@ Infra :
 Formation
 ---------
 
-2011-2013
-:   *Master Ingénierie Informatique (Système Réseau Internet) - Université Denis Diderot (Paris VII)*
-    (Paris, France).
+2011-2013: *Master Ingénierie Informatique (Système Réseau Internet) - Université Denis Diderot (Paris VII)*
 
-2007-2011
-:   *Licence Informatique - Université Denis Diderot (Paris VII)*
+2007-2011: *Licence Informatique - Université Denis Diderot (Paris VII)*
 
-+ Écriture d'article sur une critique de l'agile et du management en entreprise IT
+Projet pro
+---------
+
+- De 2019 - 2021, étude et écriture d'article de critique des managements IT (principalement l'Agile). Comment peut-on mettre des pratiques libertaire dans le management IT sous fond de [shape up](https://basecamp.com/shapeup).
+
+- Depuis fin 2022, rédaction [en cours] d'une synthèse sur mon travail de critique des mangements IT.
 
 ----
 
