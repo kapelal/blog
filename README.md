@@ -1,6 +1,6 @@
 # Blog
 
-[kapelal.io](kapelal.io)
+[kapelal.co](kapelal.co)
 
 ## Générer PDF
 

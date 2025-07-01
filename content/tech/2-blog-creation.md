@@ -7,8 +7,8 @@ description = "Comment j'ai monté mon blog ? [Partie 2]"
 slug = "Creation du blog [partie 2]"
 +++
 
-[[Part 1](https://kapelal.io/blog/comment-jai-monté-mon-blog--partie-1/)]
-[[Part 3](https://kapelal.io/blog/creation-du-blog-partie-3)]
+[[Part 1](https://kapelal.co/blog/comment-jai-monté-mon-blog--partie-1/)]
+[[Part 3](https://kapelal.co/blog/creation-du-blog-partie-3)]
 
 ### Avant de commencer
 
@@ -21,7 +21,7 @@ Dans la première partie on a fait:
 
 Et dans cette partie, on va installer un [Hugo](https://gohugo.io/) (website framework) mais aussi un reverse proxy
 
-On a besoin d'un RP devant Hugo sinon on ne peut pas relier kapelal.io -> Hugo
+On a besoin d'un RP devant Hugo sinon on ne peut pas relier kapelal.co -> Hugo
 
 ![img](/img/2-blog-creation/nginx.png)
 

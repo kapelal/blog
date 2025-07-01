@@ -9,7 +9,7 @@ slug = "secret operator"
 
 Comme ces temps-ci, je fais pas mal d'operator k8s, j'ai décidé de refaire un de mes controllers en operator
 
-Petit rappel de ce qu'est un <a href="https://kapelal.io/blog/creation-du-blog-partie-3/#title_cert">operator/controller</a>
+Petit rappel de ce qu'est un <a href="https://kapelal.co/blog/creation-du-blog-partie-3/#title_cert">operator/controller</a>
 
 ## Encore 1 !
 

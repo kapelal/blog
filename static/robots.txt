@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://kapelal.io/sitemap.xml
+Sitemap: https://kapelal.co/sitemap.xml

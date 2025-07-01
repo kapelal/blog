@@ -13,7 +13,7 @@ Je vais écrire sur le sujet "L'Agile comme méthode capitaliste de dépossessio
 
 ## Présentation 
 
-J'ai écrit l'article suivant [Division du travail & DevOps](https://kapelal.io/blog/division-du-travail-it-et-devops/) en 2019 et depuis j'ai eu envie de travailler sur une critique de l'Agile.
+J'ai écrit l'article suivant [Division du travail & DevOps](https://kapelal.co/blog/division-du-travail-it-et-devops/) en 2019 et depuis j'ai eu envie de travailler sur une critique de l'Agile.
 
 Ce n'est pas une critique sociologique, mais c'est une critique personnel qui à pour but d'organiser ce que je pense de l'Agilité. En gros je l'écris pour moi.
 

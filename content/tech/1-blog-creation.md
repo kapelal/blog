@@ -6,8 +6,8 @@ tags = ["gcloud","terraform","kubernetes"]
 description = "Comment j'ai monté mon blog ? [Partie 1]"
 +++
 
-[[Part 2](https://kapelal.io/blog/creation-du-blog-partie-2)]
-[[Part 3](https://kapelal.io/blog/creation-du-blog-partie-3)]
+[[Part 2](https://kapelal.co/blog/creation-du-blog-partie-2)]
+[[Part 3](https://kapelal.co/blog/creation-du-blog-partie-3)]
 
 ### Avant de commencer
 
@@ -145,7 +145,7 @@ endif
 Je résume:
 
 + Une zone réseau, un vpc
-+ Une IP externe, l'ip qui sera derrière `kapelal.io`
++ Une IP externe, l'ip qui sera derrière `kapelal.co`
 + Une résolution DNS, pour la connexion nom de domaine -> ip
 + Un K8s
 

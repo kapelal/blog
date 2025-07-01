@@ -1,4 +1,4 @@
-baseurl = "https://kapelal.io/"
+baseurl = "https://kapelal.co/"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
