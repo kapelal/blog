@@ -11,6 +11,8 @@ slug = "LLM is a genius — Be careful what you wish for"
 
 Trop content que Martin Fowler ait écrit ce genre d'article. J'adhère énormément à l'image du génie.
 
+![image](/img/genius.png)
+
 Quand je formule un prompt je sais toujours que j'ouvre un éventail d'interprétations possibles, comme un entonnoir inversé. Et j'aime bien imaginer l'élargissement de l'entonnoir comme des couches qui se superposent et qui permettent d'amplifier l'interprétation. 
 
 Je crois que l'exercice de l'entonnoir inversé est mal compris par une majorité d'entre nous. Ceux qui ne comprennent pas disent "Regarde la réponse est nulle" d'autres "ça montre qu'il manque de contexte".
@@ -55,7 +57,6 @@ Notre interaction sera un dialogue itératif:
 Générallement mes prompts que j'ai utilisé pour cohortes, pour analyser des témoignages, ont suivi ce patern: Entonnoir inversé comme un input d'un autre entonnoir mais celui là dans le bon sens.
 
 ![image](/img/entonnoir.png)
-
 
 Inspiration:
 
