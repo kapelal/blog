@@ -1,9 +1,9 @@
 +++
-title = "Division du travail IT & DevOps"
-date = 2019-07-10T14:01:24+02:00
+title = "LLM is a genius — Be careful what you wish for"
+date = 2025-07-23T14:01:24+02:00
 meta_img = "/img/genius.png"
-tags = ["DevOps","division du travail"]
-description = "Division du travail IT & DevOps"
+tags = ["AI"]
+description = "LLM is a genius — Be careful what you wish for"
 slug = "LLM is a genius — Be careful what you wish for"
 +++
 
